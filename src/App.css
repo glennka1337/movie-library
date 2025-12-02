@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: white;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.search-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.search-form input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.search-form button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: royalblue;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.movie-card {
+  width: 160px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 0.5rem;
+  background-color: white;
+  text-align: center;
+}
+
+.movie-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.movie-card .buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.movie-card button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: royalblue;
+}
+
+.movie-details {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.favorites {
+  margin-top: 2rem;
+}
